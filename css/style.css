@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Patua+One);
+/*This file imports all your scss partial to be compiled in one stylesheet, which you can attach to your html.
+
+ All the files are prefixed with an an underscore "_name-of-file.scss" 
+ are called partial - meaning that their css isn't compiled unless its imported into and unprefixed .scss file */
+/* Placeholders for storing information that you want to reuse throughout your stylesheets. 
+You store things like colours, font stacks or any css value you think you might want to reuse. 
+SASS uses the '$' to declare variables */
+/*@mixin button($bg-color, $hover-color, $text-color, $button-holder){
+	background-color: $bg-color;
+	color: $text-color;
+	padding: .5em 1em;
+	border-radius: 3px;
+	margin: 1em;
+	display: inline-block;
+	text-decoration: none;
+	transition: all 150ms ease-in-out;
+	&:hover{
+		background-color: $hover-color $button-holder;
+	}
+}
+
+ul{
+	@extend .border;
+}*/
+/*body{
+	background-color: $background;
+	font-family: $Patua-One;
+}
+
+.primary-btn{
+	@include button($primary, $primary-dark, #fff)
+}
+
+.secondary-btn {
+	@include button($secondary, #ccc, #666)
+}
+
+.border{
+	border: 1px solid #ccc;
+//you can nest elements or selectors to target them more specifically
+	p{
+		color: red;
+	}
+}
+
+.button-holder{
+	@include ($button-holder)
+}*/
+/* line 28, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-2-scss/scss/components/main */
+.box-1 {
+  color: #FF5700, #FFFFFF; }

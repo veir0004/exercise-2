@@ -1,0 +1,23 @@
+//Variables
+/* Placeholders for storing information that you want to reuse throughout your stylesheets. 
+You store things like colours, font stacks or any css value you think you might want to reuse. 
+SASS uses the '$' to declare variables */
+
+
+//Colours
+$primary: #3498db;
+$primary-dark: #2980b9;
+$secondary: #333;
+$secondary-dark: #666;
+
+
+$button-holder: #2980b9;
+
+$background: #DEDEDE;
+$box-1-background: #FF5700;
+$box-1-color: #FFFFFF;
+
+//Font Stacks
+@import url(http://fonts.googleapis.com/css?family=Patua+One);
+
+$Patua-One:  sans-serif;
